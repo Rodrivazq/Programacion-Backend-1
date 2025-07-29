@@ -1,120 +1,87 @@
-# 🛒 Sistema de Gestión de Productos
+# 💼 Sistema de Gestión de Productos
 
-Proyecto desarrollado como parte del curso de Programación Backend. Permite administrar productos con funcionalidades CRUD completas (Crear, Leer, Actualizar y Eliminar), incluyendo subida y visualización de imágenes.
+Este proyecto es un sistema de backend desarrollado en Node.js y Express para la gestión de productos. Permite crear, leer, actualizar y eliminar productos, así como manejar imágenes mediante Multer.
 
 ---
 
 ## 🚀 Tecnologías Utilizadas
 
-- **Node.js**
-- **Express**
-- **MongoDB** con Mongoose
-- **Multer** para manejo de imágenes
-- **HTML, CSS, JavaScript** (Frontend básico)
-- **Postman** (para testeo de API)
+- ✅ Node.js
+- ✅ Express
+- ✅ MongoDB + Mongoose
+- ✅ Multer (carga de imágenes)
+- ✅ HTML + CSS (interfaz simple)
+- ✅ Git + GitHub
 
 ---
 
-## 📁 Estructura del Proyecto
-
-```
-tienda-backend/
-├── models/
-│   └── Producto.js
-├── routes/
-│   └── productos.js
-├── middleware/
-│   └── multerConfig.js
-├── public/
-│   ├── index.html
-│   ├── script.js
-│   └── styles.css
-├── uploads/
-│   └── (Imágenes subidas)
-├── server.js
-└── package.json
-```
-
----
-
-## 🔧 Instalación y Ejecución
+## 🛠 Cómo Ejecutar el Proyecto
 
 1. Clonar el repositorio:
-
 ```bash
-git clone https://github.com/tu_usuario/tienda-backend.git
-cd tienda-backend
+git clone https://github.com/Rodrivazq/Programacion-Backend-1.git
 ```
 
 2. Instalar dependencias:
-
 ```bash
 npm install
 ```
 
-3. Crear la carpeta para las imágenes:
-
-```bash
-mkdir uploads
-```
+3. Crear archivo `.env` con la conexión a MongoDB (si se requiere).
 
 4. Ejecutar el servidor:
-
 ```bash
 node server.js
 ```
 
-> El servidor corre en `http://localhost:3000`
+---
+
+## 🌐 Endpoints Principales
+
+| Método | Ruta              | Descripción               |
+|--------|-------------------|---------------------------|
+| GET    | `/productos`      | Obtener todos los productos |
+| POST   | `/productos`      | Crear un nuevo producto   |
+| PUT    | `/productos/:id`  | Actualizar un producto    |
+| DELETE | `/productos/:id`  | Eliminar un producto      |
 
 ---
 
-## 🌐 Interfaz de Usuario
-
-Accedé desde tu navegador a:
+## 📂 Estructura de Carpetas
 
 ```
-http://localhost:3000
+├── middleware/
+├── models/
+├── public/
+├── routes/
+├── uploads/
+├── server.js
+├── package.json
+├── README.md
 ```
-
-Desde ahí podrás:
-- Agregar productos con imagen
-- Ver listado de productos
-- Editar productos (desde la interfaz)
-- Eliminar productos
-
----
-
-## 🧪 Testeo con Postman
-
-Podés probar las rutas directamente desde Postman:
-
-- `GET /productos` → Obtener productos
-- `POST /productos` → Crear producto con imagen (form-data)
-- `PUT /productos/:id` → Editar producto
-- `DELETE /productos/:id` → Eliminar producto
 
 ---
 
 ## ✅ Estado del Proyecto
 
-✔️ CRUD funcional completo  
-✔️ Subida y visualización de imágenes  
-✔️ Interfaz básica desde `index.html`  
-✔️ Separación en módulos (modelo, rutas, middleware)
+✅ Finalizado y funcional para entrega
 
 ---
+
 ## 📸 Capturas de Pantalla
 
-### 🖼️ Formulario de carga
+### 📥 Formulario de carga
 ![Formulario](./capturas/captura1.png)
 
-### 📋 Listado de productos
+### 📄 Listado de productos
 ![Listado](./capturas/captura2.png)
 
-### ✅ Producto modificado
+### 🛠 Producto modificado
 ![Producto modificado](./capturas/captura3.png)
 
-## 📌 Autor
+---
 
-**Rodrigo Vázquez**  
-Proyecto final de curso - 2025
+## 👤 Autor
+
+Rodrigo Vázquez  
+[GitHub](https://github.com/Rodrivazq)

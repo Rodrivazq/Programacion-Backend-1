@@ -103,12 +103,16 @@ Podés probar las rutas directamente desde Postman:
 ✔️ Separación en módulos (modelo, rutas, middleware)
 
 ---
+## 📸 Capturas de Pantalla
 
-## 📸 Capturas de Pantalla *(opcional)*
+### 🖼️ Formulario de carga
+![Formulario](./capturas/captura1.png)
 
-(Podés agregar imágenes de ejemplo del formulario o del listado de productos si querés sumar presentación)
+### 📋 Listado de productos
+![Listado](./capturas/captura2.png)
 
----
+### ✅ Producto modificado
+![Producto modificado](./capturas/captura3.png)
 
 ## 📌 Autor
 

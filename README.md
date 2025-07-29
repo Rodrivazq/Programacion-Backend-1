@@ -70,13 +70,13 @@ node server.js
 
 ## 📸 Capturas de Pantalla
 
-### 📄 Listado de productos  
-![Listado](https://github.com/Rodrivazq/Programacion-Backend-1/raw/main/capturas/captura2.png)
+### 📋 Listado de productos
+![Listado](https://github.com/Rodrivazq/Programacion-Backend-1/raw/main/capturas/captura1.png)
 
-### 📝 Formulario de carga  
-![Formulario](https://github.com/Rodrivazq/Programacion-Backend-1/raw/main/capturas/captura1.png)
+### 📝 Formulario de carga
+![Formulario](https://github.com/Rodrivazq/Programacion-Backend-1/raw/main/capturas/captura2.png)
 
-### ✏️ Producto modificado  
+### ✏️ Producto modificado
 ![Producto modificado](https://github.com/Rodrivazq/Programacion-Backend-1/raw/main/capturas/captura3.png)
 
 ---

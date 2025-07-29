@@ -70,11 +70,11 @@ node server.js
 
 ## 📸 Capturas de Pantalla
 
-### 📥 Formulario de carga
-![Formulario](./capturas/captura1.png)
-
 ### 📄 Listado de productos
 ![Listado](./capturas/captura2.png)
+
+### 📥 Formulario de carga
+![Formulario](./capturas/captura1.png)
 
 ### 🛠 Producto modificado
 ![Producto modificado](./capturas/captura3.png)

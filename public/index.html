@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Productos</h1>
+
+  <form id="formulario-producto" enctype="multipart/form-data">
+    <input type="text" name="nombre" placeholder="Nombre" required><br>
+    <input type="text" name="descripcion" placeholder="Descripción" required><br>
+    <input type="number" name="precio" placeholder="Precio" required><br>
+    <input type="number" name="stock" placeholder="Stock" required><br>
+    <input type="file" name="imagen" accept="image/*"><br>
+    <button type="submit">Guardar producto</button>
+  </form>
+
+  <h2>Listado de productos</h2>
+  <div id="lista-productos"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
